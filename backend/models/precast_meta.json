@@ -1,0 +1,66 @@
+{
+    "features": [
+        "Cement_content_kgm3",
+        "Water_cement_ratio",
+        "Flyash_percent",
+        "Target_grade_MPa",
+        "Steam_temp_C",
+        "Steam_duration_hr",
+        "Curing_start_delay_hr",
+        "Chamber_humidity_pct",
+        "Ambient_temp_C",
+        "Relative_humidity_pct",
+        "Wind_speed_mps",
+        "Daytime_hours",
+        "Automation_level",
+        "No_of_moulds",
+        "Cleaning_time_min",
+        "Reset_time_min",
+        "Equipment_downtime_min",
+        "Early_strength_requirement_MPa",
+        "Initial_strength_12hr_MPa",
+        "Maturity_index",
+        "Energy_cost_rate_INR_per_kWh",
+        "Cement_type",
+        "Curing_method",
+        "Season"
+    ],
+    "numerical_cols": [
+        "Cement_content_kgm3",
+        "Water_cement_ratio",
+        "Flyash_percent",
+        "Target_grade_MPa",
+        "Steam_temp_C",
+        "Steam_duration_hr",
+        "Curing_start_delay_hr",
+        "Chamber_humidity_pct",
+        "Ambient_temp_C",
+        "Relative_humidity_pct",
+        "Wind_speed_mps",
+        "Daytime_hours",
+        "Automation_level",
+        "No_of_moulds",
+        "Cleaning_time_min",
+        "Reset_time_min",
+        "Equipment_downtime_min",
+        "Early_strength_requirement_MPa",
+        "Initial_strength_12hr_MPa",
+        "Maturity_index",
+        "Energy_cost_rate_INR_per_kWh"
+    ],
+    "categorical_cols": [
+        "Cement_type",
+        "Curing_method",
+        "Season"
+    ],
+    "targets": [
+        "Time_to_reach_demould_strength_hr",
+        "Cycle_time_hr",
+        "Total_cycle_cost_INR"
+    ],
+    "target_names_map": {
+        "Time_to_demould": "Time_to_reach_demould_strength_hr",
+        "Cycle_time": "Cycle_time_hr",
+        "Total_cost": "Total_cycle_cost_INR"
+    }
+}
