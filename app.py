@@ -25,7 +25,7 @@ st.set_page_config(
 # ─────────────────────────────────────────────
 # CONSTANTS
 # ─────────────────────────────────────────────
-API_BASE_URL = os.getenv("API_BASE_URL", "https://mourncrow-lnt.hf.space")
+API_BASE_URL = os.getenv("API_BASE_URL", "https://mourncrow-lnt2.hf.space")
 
 # ─────────────────────────────────────────────
 # API CLIENT
